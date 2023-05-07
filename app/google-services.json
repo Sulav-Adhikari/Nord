@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085986853583",
+    "project_id": "nord-55b0f",
+    "storage_bucket": "nord-55b0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085986853583:android:46206d8c6ab8b8f7c91dba",
+        "android_client_info": {
+          "package_name": "com.example.nord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085986853583-lpiect8q6of9s05frklr5vrhvt87qsm7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAViJDMpRZ-1Oh_rNsld3c7CTP81uWMbog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085986853583-lpiect8q6of9s05frklr5vrhvt87qsm7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

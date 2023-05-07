@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/switchManager"
+        android:title="Switch Manager"/>
+    <item
+        android:id="@+id/resetPassword"
+        android:title="Change Password" />
+    <item
+        android:id="@+id/updateEmailMenu"
+        android:title="Update E-mail Address" />
+    <item
+        android:id="@+id/logoutAccount"
+        android:title="Logout" />
+</menu>

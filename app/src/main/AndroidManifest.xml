@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nord">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PassTheNote">
+        <activity android:name="com.example.nord.EditPass" android:theme="@style/Theme.PassTheNote.NoActionBar"></activity>
+        <activity
+            android:name="com.example.nord.AddNewPass"
+            android:theme="@style/Theme.PassTheNote.NoActionBar"
+            android:parentActivityName="com.example.nord.passMain"/>
+        <activity
+            android:name="com.example.nord.DetailsPass"
+            android:theme="@style/Theme.PassTheNote.NoActionBar" />
+        <activity android:name="com.example.nord.passMain" />
+        <activity
+            android:name="com.example.nord.SplashMain"
+            android:theme="@style/Theme.PassTheNote.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.nord.Splash"
+            android:theme="@style/Theme.PassTheNote.NoActionBar" />
+        <activity
+            android:name="com.example.nord.ChooseOption"
+            android:theme="@style/Theme.PassTheNote.NoActionBar" />
+        <activity
+            android:name="com.example.nord.EditNote"
+            android:theme="@style/Theme.PassTheNote.NoActionBar" />
+        <activity
+            android:name="com.example.nord.AddNewNote"
+            android:parentActivityName="com.example.nord.notesMain"
+            android:theme="@style/Theme.PassTheNote.NoActionBar" />
+        <activity
+            android:name="com.example.nord.notesMain"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.nord.AddNote"
+            android:label="@string/title_activity_add_note"
+            android:theme="@style/Theme.PassTheNote.NoActionBar" />
+        <activity
+            android:name="com.example.nord.DetailsNote"
+            android:label="@string/title_activity_details_note"
+            android:theme="@style/Theme.PassTheNote.NoActionBar" />
+        <activity
+            android:name="com.example.nord.contentsNotes"
+            android:theme="@style/Theme.NoActionBar" />
+        <activity
+            android:name="com.example.nord.ResetPassword"
+            android:parentActivityName="com.example.nord.notesMain"
+            android:theme="@style/Theme.PassTheNote.NoActionBar" />
+
+        <activity android:name="com.example.nord.Registration" />
+        <activity android:name="com.example.nord.Login" />
+        <activity android:name="com.example.nord.EmailVerification" />
+    </application>
+
+</manifest>
